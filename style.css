@@ -1,0 +1,75 @@
+.phone {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .display {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .display input {
+    width: 80%;
+    height: 30px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .dialpad {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .number {
+    width: 30%;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .call {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .number:hover, .call:hover {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
